@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  padding: 1rem 2rem;
+}
+.social {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  flex: 2;
+  text-align: center;
+}
+.links {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.social img {
+  margin-right: 1rem;
+}

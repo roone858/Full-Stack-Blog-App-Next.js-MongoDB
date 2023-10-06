@@ -1,0 +1,56 @@
+.header {
+
+  margin-bottom: 2rem ;
+}
+.postsList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.imageContainer {
+  height: 300px;
+  aspect-ratio: 1 / 1;
+  flex: 1;
+  position: relative;
+}
+.image {
+  object-fit: cover;
+}
+.date {
+  font-size: 12px;
+  color: #878787;
+}
+.slug {
+  font-size: 12px;
+  text-transform: uppercase ;
+  color: crimson;
+}
+.postText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+.postText h3 {
+  
+}
+.postText p {
+  font-size: 14px;
+  color: #878787;
+}
+.btn {
+  background-color: transparent;
+  padding: 5px 0px;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid coral;
+  width: max-content;
+}

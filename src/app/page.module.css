@@ -1,0 +1,17 @@
+.main {
+  margin: 2rem 5rem;
+}
+.homeSection {
+  display: flex;
+  gap: 50px;
+  padding-top: 3rem;
+}
+.leftContainer {
+  flex: 5;
+}
+
+.rightContainer {
+  flex: 2;
+ 
+}
+

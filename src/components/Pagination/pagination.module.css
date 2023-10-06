@@ -1,0 +1,14 @@
+.btns {
+     margin: 2rem 0rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+   .btn {
+     border: none;
+     background-color: crimson;
+     color: #fff;
+     padding: 10px 20px;
+     cursor: pointer;
+   }
+   

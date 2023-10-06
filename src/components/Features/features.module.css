@@ -1,0 +1,44 @@
+.header {
+  font-size: 48px;
+  margin-bottom: 2rem;
+}
+.header span {
+  font-weight: 600;
+}
+.post {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.imageContainer {
+
+ flex: 1;
+  height: 400px;
+  /* aspect-ratio: 1 / 1; */
+ 
+  position: relative;
+}
+.image {
+  object-fit: cover;
+}
+
+.postText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+.postText h3 {
+  font-size: 28px;
+}
+.postText p {
+color: var(--softTextColor);
+}
+.postText Button {
+     padding: 16px 20px;
+     border: none;
+     border-radius: 5px;
+     width: max-content;
+}

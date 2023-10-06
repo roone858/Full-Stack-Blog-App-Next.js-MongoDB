@@ -1,0 +1,56 @@
+.darkLine {
+     height: 2px;
+     width: 20px;
+     background-color: black;
+     border-radius: 10px;
+   }
+   .lightLine {
+     height: 2px;
+     width: 20px;
+     background-color: #fff;
+     border-radius: 10px;
+   }
+  
+  
+   .resButton {
+     display: none;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 4px;
+     cursor: pointer;
+     z-index: 20;
+   }
+   .list{
+    position: absolute;
+    left: 0%;
+    top:100px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:calc( 100vh - 100px);
+    width: 100%;
+    gap: 2rem;
+   }
+   .link{
+    font-size: 38px;
+   }
+   @media only screen and (max-width: 768px) {
+     .logo {
+       text-align: start;
+     }
+     .social {
+       display: none;
+     }
+   }
+   @media only screen and (max-width: 684px) {
+     .resButton {
+       display: flex;
+     }
+     .list {
+      display: flex;
+    }
+  
+   }
+   
