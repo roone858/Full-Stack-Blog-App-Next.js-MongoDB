@@ -5,35 +5,11 @@ import Link from "next/link";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import AuthLinks from "../AuthLinks/AuthLinks";
 import ResponsiveMenu from "../ResponsiveMenu/ResponsiveMenu";
+import SocialIcons from "../SocialIcons/SocialIcons";
 const NavBar = () => {
   return (
     <nav className={styles.container}>
-      <div className={styles.social}>
-        <Image
-          src={"/facebook.png"}
-          width={24}
-          height={24}
-          alt="social media icon"
-        />
-        <Image
-          src={"/instagram.png"}
-          width={24}
-          height={24}
-          alt="social media icon"
-        />
-        <Image
-          src={"/twitter.png"}
-          width={24}
-          height={24}
-          alt="social media icon"
-        />
-        <Image
-          src={"/youtube.png"}
-          width={24}
-          height={24}
-          alt="social media icon"
-        />
-      </div>
+      <SocialIcons />
       <div className={styles.logo}>lamablog</div>
       <div className={styles.links}>
         <ThemeToggle />
@@ -46,9 +22,9 @@ const NavBar = () => {
         <Link className={styles.link} href={"/about"}>
           About
         </Link>
-        <AuthLinks className={styles.link}/>
-   
-        <ResponsiveMenu/>
+        <AuthLinks className={styles.link} />
+
+        <ResponsiveMenu />
       </div>
     </nav>
   );
