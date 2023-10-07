@@ -1,0 +1,67 @@
+.container {
+  padding: 5rem;
+}
+.panel {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 2rem;
+  position: relative;
+  gap: 40px;
+}
+.imageContainer {
+  position: relative;
+  height: 300px;
+  flex: 1;
+}
+.imageContainer img {
+  border-radius: 15px;
+}
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+}
+.profileInfo {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+.profileInfo img {
+  border-radius: 50%;
+}
+.contentContainer {
+  display: flex;
+  gap: 50px;
+}
+
+.left {
+  flex: 5;
+}
+.sideMenu {
+  flex: 2;
+}
+.commentsContainer h3 , .commentInput{
+     margin-bottom: 2rem;
+}
+.name,
+.date {
+  color: var(--softTextColor);
+}
+.description {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.comment p {
+     font-size: 12px;
+     font-weight: 300;
+     margin: 10px 0rem;
+   }
+
+   .comment{
+     margin-bottom: 2rem;
+   }
